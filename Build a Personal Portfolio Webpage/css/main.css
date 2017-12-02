@@ -1,0 +1,130 @@
+body {
+  background-color: #888;
+}
+
+.smaller-txt {
+  font-size: 1.3em;
+  color: #777 !important;
+}
+
+.light-border {
+  border: 1px solid #777;
+  border-top: none;
+}
+
+.same-txt {
+  color: #999;
+}
+
+.pd-top {
+  padding-top: 2em;
+}
+
+.same-bg {
+  background-color: #eee;
+}
+
+.bg-purple {
+  background-color: #722872;
+}
+
+.mg-all {
+  margin: 0 1.7em 1em!important;
+}
+
+.thicker {
+  font-weight: bold;
+  text-transform: uppercase;
+}.col-12.col-md-6.text-left.pd-top {
+    padding-right: 5em;
+}
+
+.limited {
+  width: 100%;
+  max-width: 992px;
+}
+
+.btn-outline-secondary {
+  color: #ccc;
+  background-image: none;
+  background-color: transparent;
+  border-color: transparent !important;
+}
+
+.btn-outline-secondary:not([disabled]):not(.disabled).active, .btn-outline-secondary:not([disabled]):not(.disabled):active, .show>.btn-outline-secondary.dropdown-toggle {
+  background-color: #fff;
+  color: #777;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.btn-outline-secondary:hover {
+  color: #333;
+  backgmargin: 0 1.7em 1em;round-color: transparent !important;
+}
+
+#about {
+  background-color: #aaa;
+  color: #fff;
+}
+
+h5 {
+    padding-left: 5%;
+}
+
+.my-3 {
+  margin-top: 1rem!important;
+  margin-bottom: 1rem!important;
+  background-color: white;
+  padding: 2px;
+  width: 70%;
+}
+
+img.rounded-circle.img-fluid {
+  margin: 50px 0;
+  max-width: 250px;
+}
+
+.my-4 {
+  margin-top: 1.5rem!important;
+  margin-bottom: 1.5rem!important;
+  background-color: #999;
+  padding: 2px;
+  width: 70%;
+}
+
+img.img-fluid {
+  margin: 1em 0 2em;
+}
+
+.col-12.col-md-6.text-left.pd-top {
+  padding-right: 5em;
+}
+
+input.form-control.form-control-lg {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #aaa;
+  font-size: 1.7em;
+}
+
+#message {
+  padding-bottom: 5em;
+}
+
+.w-h {
+  height: 5em;
+}
+
+/* This should be at the end */
+@media screen and (min-width: 992px)
+{
+  .my-3 {
+      width: 85%;
+      margin-left: 15%;
+  }
+
+  .w-h {
+    height: auto;
+  }
+}
